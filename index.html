@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width+device-width, initial-scale=1.0">
+
+        <!--FONT AWESOME-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!--MAIN CSS-->
+        <link rel="stylesheet" href="styles.css">
+        <title>Videeksha's Portfolio</title>
+    </head>
+    <body>
+        <!-- HEADER DESIGN-->
+         <header class="header">
+            <a href="#" class="logo">VIDEEKSHA.</a>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+         </header>
+         
+         <!-- HOME SECTION DESIGN-->
+          <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, I am</h3>
+                <h1>Videeksha Dannaram</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>I’m a curious and creative CSE student with a love for clean code, smart design, and solving real-world problems through tech. I enjoy building user-friendly websites and learning something new every day.</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/dvideeksha/" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://github.com/Videeksha22" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="mailto:videekshareddy@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="Videeksha_Resume.pdf" target="_blank" download="VideekshaD_Resume" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="image1.png" alt="videeksha"/>
+            </div>
+          </section>
+
+          <!-- ABOUT SECTION DESIGN-->
+           <section class="about" id="about">
+            <div class="about-img">
+                <img src="frame_1.jpg" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p><p>Enthusiastic and driven 3rd-year Computer Science student with a passion for problem-solving and building real-world projects. I enjoy learning, exploring new technologies, and creating meaningful digital solutions. Known for adaptability, attention to detail, and a commitment to excellence, I’m eager to grow as a developer while contributing to innovative projects.</p></p>
+            </div>
+           </section>
+
+          <!-- SKILLS SECTION DESIGN-->
+            <section id="skills">
+                <h2 class="heading">Technical <span>Skills</span></h2>
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                    <h3>Languages</h3>
+                    <p>C, Python, JavaScript, SQL, C++ (Basics), Java</p>
+                    </div>
+
+                    <div class="skill-card">
+                    <h3>Libraries (Basics)</h3>
+                    <p>Pandas, NumPy, Matplotlib</p>
+                    </div>
+
+                    <div class="skill-card">
+                    <h3>Web Technologies</h3>
+                    <p>HTML, CSS, ReactJS, MongoDB</p>
+                    </div>
+
+                    <div class="skill-card">
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, VS Code</p>
+                    </div>
+
+                    <div class="skill-card">
+                    <h3>Platforms</h3>
+                    <p>Vercel, Google Firebase, MySQL</p>
+                    </div>
+
+                    <div class="skill-card">
+                    <h3>Soft Skills</h3>
+                    <p>Leadership, Problem Solving, Writing, Time Management</p>
+                    </div>
+
+                </div>
+            </section>
+
+          <!-- PROJECTS SECTION DESIGN-->
+           
+          <section class="projects" id="projects">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+            
+            <div class="projects-container">
+                <div class="projects-box">
+                    <img src="p2.webp" alt="">
+                    <div class="projects-layer">
+                        <h4>Smart Drone Surveillance System</h4>
+                        <br>
+                        <p>Uses YOLOv8 and OpenCV to detect survivors in drone footage and create heatmaps for rescue operations.</p>
+                        <br>
+                        <a href="https://github.com/Videeksha22/smart-drone-surveillance" target="_blank" class="github-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="white" style="background:#333; border-radius:50%; padding:6px;">
+                                <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.9c-3.2.7-3.8-1.4-3.8-1.4-.6-1.4-1.5-1.8-1.5-1.8-1.2-.8.1-.8.1-.8 1.3.1 2 1.3 2 1.3 1.2 2 3.1 1.4 3.8 1.1.1-.9.5-1.4.8-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11.1 11.1 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.5.4.9 1.2.9 2.5v3.7c0 .3.2.6.8.5a11.5 11.5 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projects-box">
+                    <img src="p3.avif" alt="">
+                    <div class="projects-layer">
+                        <h4>Event Ticket Booking System</h4>
+                        <br>
+                        <p>Java Swing application for event ticket booking with MySQL database support.</p>
+                        <br>
+                        <a href="https://github.com/Videeksha22/event-ticket-booking-system" target="_blank" class="github-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="white" style="background:#333; border-radius:50%; padding:6px;">
+                                <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.9c-3.2.7-3.8-1.4-3.8-1.4-.6-1.4-1.5-1.8-1.5-1.8-1.2-.8.1-.8.1-.8 1.3.1 2 1.3 2 1.3 1.2 2 3.1 1.4 3.8 1.1.1-.9.5-1.4.8-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11.1 11.1 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.5.4.9 1.2.9 2.5v3.7c0 .3.2.6.8.5a11.5 11.5 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projects-box">
+                    <img src="p4.webp" alt="">
+                    <div class="projects-layer">
+                        <h4>Weather App</h4>
+                        <br>
+                        <p>Simple and responsive weather application built with HTML, CSS, and JavaScript.</p>
+                        <br>
+                        <a href="https://github.com/Videeksha22/my-weather-project" target="_blank" class="github-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="white" style="background:#333; border-radius:50%; padding:6px;">
+                                <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.9c-3.2.7-3.8-1.4-3.8-1.4-.6-1.4-1.5-1.8-1.5-1.8-1.2-.8.1-.8.1-.8 1.3.1 2 1.3 2 1.3 1.2 2 3.1 1.4 3.8 1.1.1-.9.5-1.4.8-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11.1 11.1 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.5.4.9 1.2.9 2.5v3.7c0 .3.2.6.8.5a11.5 11.5 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projects-box">
+                    <img src="p5.webp" alt="">
+                    <div class="projects-layer">
+                        <h4>Virtual Piano</h4>
+                        <br>
+                        <p>Virtual keyboard piano written in C using DOS functions.</p>
+                        <br>
+                        <a href="https://github.com/Videeksha22/virtual_piano-C" target="_blank" class="github-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="white" style="background:#333; border-radius:50%; padding:6px;">
+                                <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.9c-3.2.7-3.8-1.4-3.8-1.4-.6-1.4-1.5-1.8-1.5-1.8-1.2-.8.1-.8.1-.8 1.3.1 2 1.3 2 1.3 1.2 2 3.1 1.4 3.8 1.1.1-.9.5-1.4.8-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11.1 11.1 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.5.4.9 1.2.9 2.5v3.7c0 .3.2.6.8.5a11.5 11.5 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projects-box">
+                    <img src="p6.jpg" alt="">
+                    <div class="projects-layer">
+                        <h4>Multi-Language Translator</h4>
+                        <br>
+                        <p>Multi-language text translator written in Python.</p>
+                        <br>
+                        <a href="https://github.com/Videeksha22/multi_language_translator-Python" target="_blank" class="github-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="white" style="background:#333; border-radius:50%; padding:6px;">
+                                <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.9c-3.2.7-3.8-1.4-3.8-1.4-.6-1.4-1.5-1.8-1.5-1.8-1.2-.8.1-.8.1-.8 1.3.1 2 1.3 2 1.3 1.2 2 3.1 1.4 3.8 1.1.1-.9.5-1.4.8-1.7-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11.1 11.1 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.5.4.9 1.2.9 2.5v3.7c0 .3.2.6.8.5a11.5 11.5 0 0 0 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- CONTACT SECTION DESIGN-->
+            <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form id="contact-form">
+                <div class="input-box">
+                <input type="text" id="name" name="from_name" placeholder="Full Name" required>
+                <input type="email" id="email" name="from_email" placeholder="Email Address" required>
+                </div>
+
+                <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+                <p id="form-message"></p>
+            </form>
+            </section>
+
+
+
+          <!-- FOOTER SECTION DESIGN-->
+
+          <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 by @VideekshaDannaram | All Rights Reserved</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+          </footer>
+
+        <!--SCROLL REVEAL JS-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--TYPED JS-->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        
+        <!--MAIN JS-->
+        <script src="main.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        <script>
+        (function(){
+            emailjs.init("67-aM-e21S08dOYxh"); // 🔑 Replace with your EmailJS Public Key
+        })();
+        </script>
+        <script src="contact.js"></script>
+
+
+
+    </body>
+</html>
