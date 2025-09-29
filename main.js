@@ -56,8 +56,8 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 const typed = new Typed('.multiple-text',{
     strings: ['CSE Student','Full-Stack Developer','Aspiring Software Engineer','Problem Solver'],
     typeSpeed: 40,
-    backSpeed: 30,
-    backDelay: 800,
+    backSpeed: 20,
+    backDelay: 900,
     loop: true,
 });
 
